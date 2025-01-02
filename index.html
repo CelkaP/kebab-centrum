@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebab Centrum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Nav bar section -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#home" class="nav-logo">
+                <img src="imgs/kebab-logo.png" alt="logo" style="max-width: 100px;"">
+            </a>
+
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galeria</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Kontakt</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+    </header>
+    <br>
+    
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Najlepszy kebab w Zawierciu</h2>
+                    <h3 class="subtitle">Odkryj smak prawdziwego kebaba</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, officiis magnam. In itaque ipsum repellendus eaque consequuntur aperiam eligendi atque aliquam tempora, ad autem odio, ab cumque a quis. Labore!</p>
+
+                    <div class="buttons">
+                        <a href="#contact" class="button">Skontaktuj się z nami</a>
+                        <!-- class = "button contact-us" -->
+                        <a href="kebab_menu.html" class="button contact-us">Zobacz pełne menu</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="imgs/front-img.JPG" alt="hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Nasze Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#kebab">
+                            <img src="imgs/menu/tortilla_z_frytkami.JPG" alt="Kebab w tortilli" class="menu-image">
+                        </a>
+                        <h3 class="name">Kebab w tortilli</h3>
+                        <p class="text">Tortilla pełna smaku, dla miłośników klasyki.</p>
+                    </li>
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#kebab">
+                            <img src="imgs/menu/pita.JPG" alt="Kebab w picie" class="menu-image">
+                        </a>
+                        <h3 class="name">Kebab w picie</h3>
+                        <p class="text">Chrupiąca pita i doskonałe dodatki.</p>
+                    </li>
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#kebab">
+                            <img src="imgs/menu/chlebek.JPG" alt="Kebab w chlebku" class="menu-image">
+                        </a>
+                        <h3 class="name">Kebab w chlebku</h3>
+                        <p class="text">Aromatyczne mięso w towarzystwie miękkiego, świeżego chlebka.</p>
+                    </li>
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#box">
+                            <img src="imgs/menu/kebab-box.jpg" alt="Kebab box" class="menu-image">
+                        </a>
+                        <h3 class="name">Kebab box</h3>
+                        <p class="text">Wolisz w pudełku? Wybierz boxa z naszym świetnym mięsem lub stripsami z kurczaka.</p>
+                    </li>
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#vege">
+                            <img src="imgs/menu/vege.JPG" alt="Vege" class="menu-image">
+                        </a>
+                        <h3 class="name">Vege</h3>
+                        <p class="text">Własnoręcznie robione falafele oraz inne przysmaki.</p>
+                    </li>
+                    <li class="menu-item">
+                        <a href="kebab_menu.html#burger">
+                        <img src="imgs/menu/burgery.JPG" alt="Burgery" class="menu-image">
+                        </a>
+                        <h3 class="name">Burgery</h3>
+                        <p class="text">100% wołowe mięso w wielu odsłonach.</p>
+                    </li>
+                </ul>
+                <div class="buttons">
+                        <a href="kebab_menu.html" class="button">Zobacz pełne menu</a>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Gallery section -->
+         <!-- <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Galeria</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="imgs/lokal.jpg" alt="galeria" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="imgs/logo-window.png" alt="galeria" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="imgs/menu/tortilla_z_frytkami.JPG" alt="galeria" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="imgs/menu/chlebek.JPG" alt="galeria" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="imgs/menu/burgery.JPG" alt="galeria" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+         </section> -->
+
+        <!-- Contact section -->
+         <section class="contact-section" id="contact">
+            <h2 class="section-title">Skontaktuj się z namni</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Zawiercie 42-400 Sikorskiego 10</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+48 604 385 817</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Poniedziałek - Sobota: 11:00 - 21:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Niedziela: Zamknięte</p>
+                    </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.8000388920295!2d19.4288626!3d50.4820662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47001517f50c8183%3A0x8d8cab0a5538eb19!2sKEBAB%20CENTRUM!5e0!3m2!1sen!2spl!4v1734952199134!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact-google-map">
+                </iframe>
+
+                <!-- <form action="#" class="contact-form">
+                    <input type="text" placeholder="Twoje imię" class="form-input" required>
+                    <input type="email" placeholder="Twój email" class="form-input" required>
+                    <textarea placeholder="Twoja wiadomość" class="form-input" required></textarea>
+                    <button class="submit-button">Wyślij</button>
+                </form> -->
+            </div>
+         </section>
+
+         <!-- Footer -->
+          <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© Kebab Centrum</p>
+
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/Kebab-Centrum-169623747031368/" class="social-link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+          </footer>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
