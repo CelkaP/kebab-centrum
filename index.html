@@ -7,6 +7,7 @@
     <title>Kebab Centrum Zawiercie</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup-styles.css">
     <link rel="icon" href="imgs/logo64x64.png" type="image/png">
     <link rel="icon" href="imgs/logo64x64.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/logo180x180.png">
@@ -40,7 +41,7 @@
             "addressCountry": "PL"
           },
           "telephone": "+48 604 385 817",
-          "servesCuisine": ["Kebab", "Fast Food", "Vege", "Burger", "Falafel"],
+          "servesCuisine": ["Kebab", "Fast Food", "Vege", "Burger", "Falafel, Kebab Kofta"],
           "url": "https://kebab-centrum.pl",
           "openingHoursSpecification": [
             {
@@ -102,6 +103,29 @@
                         <!-- class = "button contact-us" -->
                         <a href="kebab_menu.html" class="button contact-us">Zobacz pełne menu</a>
                     </div>
+
+                    <!-- Popup container -->
+                    <div class="popup-container" id="popup-container">
+                        <div class="popup" id="popup">
+                            <div class="close-btn" id="close-btn"></div>
+                            <img src="imgs/menu/kofta.jpg" alt="Kebab Kofta" class="popup-image">
+                            <div class="popup-content">
+                                <h2 class="popup-title">Nowość w kebab centrum!</h2>
+                                <p class="popup-text"><b>Kebab Kofta</b><br>Kraftowe mięso, pyszny lawasz i autorski
+                                    sos!</p>
+                                <button class="popup-button" disabled>Zapraszamy do lokalu</button>
+                            </div>
+                            <div class="swipe-indicator"></div>
+                        </div>
+                    </div>
+
+                    <!-- Add reopen button here -->
+                    <div class="reopen-btn" id="reopen-btn">
+                        <span class="reopen-btn-text">Nowość</span>
+                    </div>
+
+                    <!-- Popup JavaScript -->
+                    <script src="popup-script.js"></script>
                 </div>
                 <div class="hero-image-wrapper">
                     <img src="imgs/front-img.JPG" alt="hero" class="hero-image">
